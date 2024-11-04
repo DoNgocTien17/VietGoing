@@ -1,0 +1,215 @@
+.popularTour {
+  background: url(/img/imgPopular.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.popularTour .container h3,
+.destination .container h3,
+.type .container h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+.popularTour .container h2,
+.destination .container h2,
+.type .container h2 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.popularTour .container h2::after {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 5px;
+  background-color: var(--blueColor);
+  margin: 20px auto 0;
+}
+
+.popularTour .container .rowSilde .itemPopular {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.itemPopular .itemTop {
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  flex: 1.5;
+  position: relative;
+}
+
+.itemPopular .itemTop .imgTop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.itemPopular .itemTop .star {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.itemPopular .itemTop .star img {
+  width: 40px;
+  height: 40px;
+}
+
+.itemPopular .itemTop .offer {
+  background: #ef4292;
+  position: absolute;
+  top: 27px;
+  right: -69px;
+  padding: 10px 64px;
+  transform: rotate(46deg);
+}
+
+.itemPopular .itemTop .offer span {
+  color: #fff;
+}
+
+.itemPopular .itemTop .imgTopIcon {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+.itemPopular .itemTop .imgTopIcon .fa-solid,
+.itemPopular .itemTop .imgTopIcon .fa-regular {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.itemPopular .itemTop .price {
+  width: 125px;
+  height: 50px;
+  background: var(--blueColor);
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: #fff;
+  padding: 10px 0px 0 0px;
+  font-size: 20px;
+  transform: translateX(20%);
+  /* text-align: center; */
+}
+
+.itemPopular .itemTop .price span {
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 400;
+  padding: 7px 18px 0 0;
+}
+
+.itemPopular hr {
+  border: 2px solid var(--blueColor);
+}
+
+.itemPopular .itemBoth {
+  text-align: start;
+  flex: 0.5;
+  padding: 30px;
+  color: var(--text-color);
+}
+
+.itemPopular .itemBoth h4 {
+  color: #333;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+.itemPopular .itemBoth > div {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.itemPopular .itemBottom {
+  /* display: flex; */
+  /* width: 100%; */
+}
+
+.itemBottom .row > div {
+  border: 1px solid #d6dce0;
+  padding: 20px;
+  /* flex: 1; */
+  color: var(--text-color);
+}
+
+.itemPopular .itemBottom .row .time {
+  width: 55%;
+}
+
+.itemPopular .itemBottom .row .time i {
+  color: var(--blueColor);
+}
+
+.itemPopular .itemBottom .row .something {
+  width: 30%;
+}
+
+.itemPopular .itemBottom .row .something i {
+  color: var(--blueColor);
+}
+
+.itemPopular .itemBottom .row .enter {
+  width: 15%;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.itemPopular .itemBottom .row .enter > a > i {
+  color: var(--blueColor);
+  cursor: pointer;
+}
+
+.popularTour .prev img,
+.popularTour .next img,
+.type .next img,
+.type .prev img {
+  position: absolute;
+}
+
+.popularTour .prev img:hover,
+.popularTour .next img:hover,
+.type .next img:hover,
+.type .prev img:hover {
+  cursor: pointer;
+}
+
+.popularTour .prev img {
+  top: 50%;
+  left: 0;
+}
+
+.popularTour .next img {
+  top: 50%;
+  right: 0;
+}
+
+.rowSilde {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-weight: 400;
+}

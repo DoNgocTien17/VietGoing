@@ -1,0 +1,100 @@
+header {
+  background-color: #344a61;
+  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+
+.headerTop {
+  border-bottom: 1px solid var(--text-color);
+}
+.headerContact {
+  padding-top: 20px;
+}
+
+.telephoneTime {
+  display: flex;
+  color: var(--text-color);
+}
+
+.telephoneTime .phone {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.fa-solid,
+.fa-regular {
+  margin-right: 5px;
+}
+
+.headerIcon {
+  color: var(--text-color);
+  width: 20em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-cart-shopping {
+  border-right: 1px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+  padding: 7px 25px;
+}
+/* End Header Top */
+
+/* Header Bottom */
+.headerBottom {
+  margin: 12px 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.headerBottom img {
+  width: 200px;
+  height: auto;
+}
+
+.headerBottom nav {
+  width: 44rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.headerBottom nav a {
+  color: var(--text-color);
+  padding: 25px 0;
+  /* position: relative; */
+}
+
+.headerBottom nav a:hover {
+  color: white;
+  border-bottom: 10px solid var(#53a3ef);
+}
+
+/* .headerBottom nav a::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    right: 50%;
+    transform: translateX(50%);
+    background: var(--blueColor);
+    display: none;
+  } */
+
+.headerBottom nav a:hover::after {
+  display: block;
+}

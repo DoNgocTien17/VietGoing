@@ -1,0 +1,125 @@
+.choose {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+.choose .choose1 {
+  margin: 10px 0;
+}
+
+.choose .choose1 > h2 {
+  font-size: 42px;
+  margin-bottom: 35px;
+  margin-top: -20px;
+}
+
+.choose .choose1 .chooseInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px 2px;
+}
+.choose1 .chooseInfo .item {
+  display: flex;
+  /* text-align: center; */
+  min-width: 350px;
+}
+
+.item .icon img {
+  width: 70px;
+}
+
+.chooseInfo .item .chooseContext {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.chooseContext .chooseText {
+  color: var(--text-color);
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+.choose .choose2 {
+  background: var(--blueColor);
+  width: 330px;
+  height: 500px;
+  /* margin: 0 30px; */
+  border-radius: 5px;
+}
+
+.choose .choose2 .choose2Info {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 66px;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose2 .choose2Info img {
+  width: 200px;
+}
+
+.choose2 .choose2Info > div {
+  color: #fff;
+  margin: 8px 0;
+}
+
+.choose2 .choose2Info .input-icon {
+  position: relative;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.choose2 .choose2Info .input-icon input {
+  /* padding-left: 30px; */
+  padding: 20px 85px 20px 10px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 1px 0;
+}
+
+.input-icon input::placeholder {
+  color: #d6dce0;
+  font-size: 18px;
+}
+
+.choose2 .choose2Info .input-icon .fa-solid {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c9d7f5;
+}
+
+.choose2 .choose2Info .btnFind {
+  text-transform: uppercase;
+  background: #0170e6;
+  border: none;
+  color: #fff;
+  padding: 15px 85px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+/* class xử lý animation */
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.hidden-right {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s ease;
+}

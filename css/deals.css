@@ -1,0 +1,184 @@
+.deals {
+  padding: 70px 0;
+  background: #f7f7f7;
+}
+
+.deals .container h2 {
+  font-size: 35px;
+}
+
+.deals .container .dealsView {
+  margin: 20px 0;
+}
+
+.deals .container .dealsView .dealsViewTitle {
+  border-left: 5px solid #69b1fd;
+  padding: 4px 10px;
+  color: #acacac;
+}
+
+.deals .container .dealsView .dealsViewBtn button {
+  padding: 20px 40px;
+  background: #69b1fd;
+  color: #fff;
+  border: #69b1fd;
+  border-radius: 50px;
+  transform: translateY(-20px);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dealsView .dealsViewBtn button > i {
+  margin-left: 10px;
+}
+
+.dealsInfo .row .dealsItem {
+  width: 340px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.dealsItem .itemTop {
+  width: 340px;
+  height: 450px;
+  overflow: hidden;
+  flex: 1.5;
+  position: relative;
+}
+
+.dealsItem .imgTop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.dealsItem .itemTop .star {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.dealsItem .itemTop .star img {
+  width: 30px;
+  height: 30px;
+}
+
+.dealsItem .itemTop .offer {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #eb4393;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dealsItem .itemTop .offer::after {
+  content: "";
+  position: absolute;
+  right: -23px;
+  bottom: 14px;
+  width: 100px;
+  height: 50px;
+  background-color: #ed75a5;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transform: rotate(117deg);
+}
+
+.dealsItem .itemTop .offer h7 {
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 80;
+}
+
+.dealsItem .itemTop .offer h6 {
+  font-size: 16px;
+  text-decoration: line-through;
+  z-index: 80;
+}
+
+.dealsItem .itemTop .imgTopIcon {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+.dealsItem .itemTop .imgTopIcon .fa-solid,
+.dealsItem .itemTop .imgTopIcon .fa-regular {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.itemTop .price span {
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.dealsItem hr {
+  border: 2px solid var(--blueColor);
+}
+
+.dealsItem .itemBoth {
+  text-align: start;
+  flex: 0.5;
+  padding: 30px;
+  color: var(--text-color);
+}
+
+.dealsItem .itemBoth h4 {
+  color: #333;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.dealsItem .itemBottom {
+  /* display: flex; */
+  /* width: 100%; */
+}
+
+.itemBottom .row > div {
+  border: 1px solid #d6dce0;
+  padding: 20px;
+  /* flex: 1; */
+  color: var(--text-color);
+}
+
+.dealsItem .itemBottom .row .time {
+  width: 55%;
+}
+
+.dealsItem .itemBottom .row .time i {
+  color: var(--blueColor);
+  margin-left: 20px;
+}
+
+.dealsItem .itemBottom .row .something {
+  width: 30%;
+  display: flex;
+}
+
+.dealsItem .itemBottom .row .something i {
+  color: var(--blueColor);
+}
+
+.dealsItem .itemBottom .row .enter {
+  width: 15%;
+  cursor: pointer;
+}
+
+.dealsItem .itemBottom .row .enter > a > i {
+  color: var(--blueColor);
+}

@@ -1,0 +1,114 @@
+footer {
+  background: #344a61;
+  color: #fff;
+}
+
+.p3020 {
+  padding: 30px 20px;
+}
+
+.row .footerItem {
+  width: 320px;
+}
+
+.footerItem h3 {
+  padding: 20px 0;
+}
+
+.footerItem .text {
+  /* padding: 20px 0; */
+  line-height: 30px;
+  color: var(--text-color);
+}
+
+.footerItem .link {
+  cursor: pointer;
+}
+
+.footerItem .chungChiImg img {
+  padding: 20px 0;
+  width: 100px;
+  height: auto;
+}
+
+.footerItem .boxItem {
+  display: flex;
+}
+
+.footerItem .boxItem img {
+  width: 70px;
+  height: auto;
+}
+
+.footerItem .boxItem .titleBox {
+  margin-left: 10px;
+}
+
+.boxItem .titleBox > h4 {
+  padding: 10px 0;
+}
+
+.boxItem .titleBox > div {
+  color: var(--text-color);
+}
+
+.footerItem hr {
+  border: 1px solid rgb(158, 160, 158);
+  margin: 20px 0;
+}
+
+.footerItem .title {
+  display: flex;
+  margin: 15px 0;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.footerItem .title img {
+  width: 35px;
+  transform: translateY(-8px);
+  margin-right: 10px;
+}
+
+.lastFooter {
+  position: relative;
+  cursor: pointer;
+  padding: 200px 0;
+}
+
+.lastFooter::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--text-color);
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #344a61;
+}
+
+.lastFooter::after {
+  content: url("/img/top.png");
+  display: block;
+  /* width: 10px; */
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  top: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.textFirstFooter {
+  color: var(--text-color);
+  padding: 20px 0;
+}
+
+.textLastFooter {
+  width: 350px;
+  color: var(--text-color);
+  padding: 20px 0;
+}

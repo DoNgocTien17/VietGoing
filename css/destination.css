@@ -1,0 +1,54 @@
+.destination {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.destination .container h2 {
+  position: relative;
+}
+
+.destination .container h2::after,
+.type .container h2::after {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 6px;
+  background-color: #469dfe;
+  margin: 20px auto 0;
+}
+.destination .container h2::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px auto 0;
+  position: absolute;
+  bottom: 20px;
+}
+
+.destination .container .destinantionInfo {
+  margin: 20px 0;
+}
+
+.destinantionInfo .row .destinantionItem {
+  width: 340px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.destinantionInfo .row .destinantionItem img {
+  width: 340px;
+  height: 200px;
+}
+
+.destinantionInfo .row .destinantionItem span {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  translate: -50%;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+}
